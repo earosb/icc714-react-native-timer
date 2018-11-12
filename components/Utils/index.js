@@ -1,7 +1,8 @@
 /**
  * 
  * @param {Number} time 
- */const formatTime = (time) => {
+ */
+const formatTime = (time) => {
 	let minutes = Math.floor(time / 60);
 	time -= minutes * 60;
 	let seconds = parseInt(time % 60, 10);
